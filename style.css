@@ -16,9 +16,8 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('stockImg.jpg');
+    background-image: url('stockImg.png');
     min-height: 100%;
     font-size: 120px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
