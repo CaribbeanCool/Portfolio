@@ -18,4 +18,7 @@ h6 {
     background-size: cover;
     background-image: url('stockImg.jpg');
     min-height: 100%;
+    font-size: 120px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
