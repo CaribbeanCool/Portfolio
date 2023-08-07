@@ -6,7 +6,8 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://kit.fontawesome.com/8178c854ae.js" crossorigin="anonymous"></script>
+<!-- Font Awesome 4-->
+<script src="https://kit.fontawesome.com/8178c854ae.js" crossorigin="anonymous"></script> <!-- Font Awesome 5-->
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel=" icon" type="image/x-icon" href="favicon-32x32.png">
 
@@ -14,7 +15,7 @@
 
     <!-- Sidebar with image -->
     <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
-        <div class="bgimg"></div>
+        <div class="bgimg"> STOCK IMAGE</div>
     </nav>
 
     <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
@@ -26,11 +27,10 @@
         </a>
         <div class="w3-bar-block w3-center">
             <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-            <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
-                onclick="closeNav()">Portfolio</a>
             <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
-                onclick="closeNav()">Contact</a>
+            <a href="#skills" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Skills</a>
+            <a href="#projects" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                onclick="closeNav()">Projects</a>
         </div>
     </nav>
 
@@ -43,8 +43,8 @@
 
         <!-- Header -->
         <header class="w3-container w3-center" style="padding:16px 16px" id="home">
-            <h1 class="w3-jumbo"><b>Alejandro A. Perez Pabon</b></h1>
-            <p>Software Engineer</p>
+            <h1 class="w3-jumbo"><b>Alejandro A. Pérez Pabón</b></h1>
+            <p>Upcoming Software Engineer</p>
             <a href="resumeAlejandroAPerezPabon.pdf" download="resume.pdf">
                 <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
                     <i class="fa fa-download"></i> Download Resume
@@ -52,42 +52,15 @@
             </a>
         </header>
 
-        <!-- Portfolio Section -->
-        <!-- <div class="w3-padding-32 w3-content" id="portfolio">
-            <h2 class="w3-text-grey">My Portfolio</h2>
-            <hr class="w3-opacity"> -->
-
-        <!-- Grid for photos -->
-        <!-- <div class="w3-row-padding" style="margin:0 -16px">
-                <div class="w3-half">
-                    <img src="/w3images/wedding.jpg" style="width:100%">
-                    <img src="/w3images/rocks.jpg" style="width:100%">
-                    <img src="/w3images/sailboat.jpg" style="width:100%">
-                </div> -->
-
-        <!-- <div class="w3-half">
-                    <img src="/w3images/underwater.jpg" style="width:100%">
-                    <img src="/w3images/chef.jpg" style="width:100%">
-                    <img src="/w3images/wedding.jpg" style="width:100%">
-                    <img src="/w3images/p6.jpg" style="width:100%">
-                </div> -->
-        <!-- End photo grid -->
-        <!-- </div> -->
-        <!-- End Portfolio Section -->
-        <!-- </div> -->
-
         <!-- About Section -->
         <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
             <h2>About</h2>
             <hr class="w3-opacity">
-            <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                id est laborum consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p>Hello reader, I'm an up and coming student at the University of Puerto Rico-Mayaguez Campus studying
+                Software Engineering. I'm currently looking for my first internship in the field of Software
+                Engineering. I'm a hardworking and dedicated person that is always looking to learn new things and
+                improve my skills. I'm also a very creative person that likes to think outside the box and find new ways
+                to solve problems.
             </p>
 
             <!-- BAR TO VISUALLY SEPARATE THE CONTENTS -->
@@ -95,7 +68,7 @@
                 <div class="w3-container w3-center w3-padding-small w3-light-gray" style="width:100%"></div>
             </div>
 
-            <h3 class="w3-padding-16">My Skills:</h3>
+            <h3 class="w3-padding-16" id="skills">My Skills:</h3>
             <p class="w3-wide">Python <i class="fab fa-python" style="font-size: 22px;"></i></p>
             <!-- <div class="w3-light-grey">
                 <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:75%">75%</div>
@@ -108,9 +81,6 @@
             <p class="w3-wide">Git <i class="fa fa-git-square" style="font-size: 22px;"></i></p>
             <p class="w3-wide">Eclipse IDE</p>
             <p class="w3-wide">Visual Studio Code</p>
-            <!-- <div class="w3-light-grey">
-                <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
-            </div> -->
             <br>
 
             <!-- BAR TO VISUALLY SEPARATE THE CONTENTS -->
@@ -118,31 +88,8 @@
                 <div class="w3-container w3-center w3-padding-small w3-light-gray" style="width:100%"></div>
             </div>
 
-            <!-- <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
-                <div class="w3-quarter w3-section">
-                    <span class="w3-xlarge">14+</span><br>
-                    Partners
-                </div>
-                <div class="w3-quarter w3-section">
-                    <span class="w3-xlarge">55+</span><br>
-                    Projects Done
-                </div>
-                <div class="w3-quarter w3-section">
-                    <span class="w3-xlarge">89+</span><br>
-                    Happy Clients
-                </div>
-                <div class="w3-quarter w3-section">
-                    <span class="w3-xlarge">150+</span><br>
-                    Meetings
-                </div>
-            </div> -->
-
-            <!-- <button class="w3-button w3-light-grey w3-padding-large w3-section">
-                <i class="fa fa-download"></i> Download Resume
-            </button> -->
-
             <!-- Projects -->
-            <h3 class="w3-padding-16">My Projects:</h3>
+            <h3 class="w3-padding-16" id="projects">Some of my projects:</h3>
             <p><span class="w3-large w3-text-black w3-margin-right">Crack the Crime Code</span> Feb-Mar 2023.</p>
             <p>A project that involves being a Police Department with the task of arresting criminal organizations. As
                 the police, your task is to arrest every organization and their members, and generate a police report
@@ -162,91 +109,17 @@
             <p><span class="w3-large w3-text-black w3-margin-right">Sppoky Quest RPG</span> Oct-Nov 2022</p>
             <p>An RPG with a rock-paper-scissors style of combat. The point of the game is to beat every boss from every
                 level without dying/losing all your health. In the game itself, there are NPCs that you can
-                interact with to gain more stats towards your character and secret keybinds.<a
+                interact with to gain more stats towards your character and secret keybinds. <a
                     href="https://github.com/CaribbeanCool/Spooky_Quest" target="_blank"> Link to
                     the GitHub repository</a></p><br>
 
             <p><span class="w3-large w3-text-black w3-margin-right">Python Web Scraper</span> Aug 2023</p>
             <p>A python webscraper that finds a professor's rating and student's comments in professor-rating website
                 called "Notaso". I used the "BeautifulSoup" and "requests" modules to make the scraping work. Also, the
-                professors are from the CSE and ECE Departments from the University of Puerto Rico - Mayaguez Campus.<a
+                professors are from the CSE and ECE Departments from the University of Puerto Rico - Mayaguez Campus. <a
                     href="https://github.com/CaribbeanCool/Notaso_CIIC-ICOM_Professors" target="_blank"> Link to
                     the GitHub repository</a></p><br>
-
-            <!-- Grid for pricing tables -->
-            <!-- <h3 class="w3-padding-16">My Price</h3>
-            <div class="w3-row-padding" style="margin:0 -16px">
-                <div class="w3-half w3-margin-bottom">
-                    <ul class="w3-ul w3-center w3-card w3-hover-shadow">
-                        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-                        <li class="w3-padding-16">Web Design</li>
-                        <li class="w3-padding-16">Photography</li>
-                        <li class="w3-padding-16">5GB Storage</li>
-                        <li class="w3-padding-16">Mail Support</li>
-                        <li class="w3-padding-16">
-                            <h2>$ 10</h2>
-                            <span class="w3-opacity">per month</span>
-                        </li>
-                        <li class="w3-light-grey w3-padding-24">
-                            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="w3-half">
-                    <ul class="w3-ul w3-center w3-card w3-hover-shadow">
-                        <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
-                        <li class="w3-padding-16">Web Design</li>
-                        <li class="w3-padding-16">Photography</li>
-                        <li class="w3-padding-16">50GB Storage</li>
-                        <li class="w3-padding-16">Endless Support</li>
-                        <li class="w3-padding-16">
-                            <h2>$ 25</h2>
-                            <span class="w3-opacity">per month</span>
-                        </li>
-                        <li class="w3-light-grey w3-padding-24">
-                            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-                        </li>
-                    </ul>
-                </div> -->
-            <!-- End Grid/Pricing tables -->
-            <!-- </div> -->
-
-            <!-- End About Section -->
         </div>
-
-        <!-- Contact Section -->
-        <!-- <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
-            <h2>Contact Me</h2>
-            <hr class="w3-opacity">
-
-            <div class="w3-section">
-                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-                <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
-            </div> -->
-
-        <!-- Image of location/map -->
-        <!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
-
-            <p>Lets get in touch. Send me a message:</p>
-            <form action="/action_page.php" target="_blank">
-                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name">
-                </p>
-                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required
-                        name="Email"></p>
-                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required
-                        name="Subject"></p>
-                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required
-                        name="Message"></p>
-                <p>
-                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                    </button>
-                </p>
-            </form> -->
-        <!-- End Contact Section -->
-        <!-- </div> -->
 
         <!-- Footer -->
         <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
